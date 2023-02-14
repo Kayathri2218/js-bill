@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bill</title>
+        <style>
+            div.container {
+                width: 70%;
+                margin: auto;
+            }
+            #form {
+                border: 1px solid #000;
+                padding: 20px;
+                width: 40%;
+            }
+            h1 {
+                padding: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bill</h1>
+            <form id="form">
+                <label for="amount">Bill Amount : </label>
+                <input id="amount"><br><br>
+                <label for="tips">Tips Percentage : </label>
+                <input id="tips"><br><br>
+                <label for="tipamount">Tips Amount :</label>
+                <input id="tipamount"><br><br>
+                <label for="total">Total Amount : </label>
+                <p id="result"></p>
+                <button id="btn">calculate</button>
+
+                <div id="error"></div>
+            </form>
+        </div>
+
+        <script src="main1.js"></script>
+    </body>
+</html>
